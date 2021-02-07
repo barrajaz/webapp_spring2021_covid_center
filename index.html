@@ -21,7 +21,7 @@
                     <label for="txtLastName">Last name: </label><br>
                     <input type="text" id="txtLastName" name="txtLastName"><br>
 
-                    <label>Gender: </label>
+                    <label>Gender: </label><br>
                     <input type="radio" id="rbMale" name="gender" value="male">
                     <label for="male">Male</label><br>
                     <input type="radio" id="rbFemale" name="gender" value="female">
@@ -39,56 +39,87 @@
                     <input type="text" id="dob" name="dob"><br>
 
                     <h3>Have you had the following symptioms in the last 24 hours?(y/n)</h3>
-                    <label for="chills">Fever or Chills? </label><br>
-                    <input type="radio" id="chills" name="chills" value="yes">Yes<br>
-                    <input type="radio" id="chills" name="chills" value="no">No<br>
-                    <label for="cough">Cough? </label><br>
-                    <input type="radio" id="cough" name="cough" value="yes">Yes<br>
-                    <input type="radio" id="cough" name="cough" value="No">No<br>
-                    <label for="short">Shortness of breath or difficulty breathing? </label><br>
-                    <input type="radio" id="short" name="short" value="yes">Yes<br>
-                    <input type="radio" id="short" name="short" value="No">No<br>
-                    <label for="fatigue">Fatigue? </label><br>
-                    <input type="radio" id="fatigue" name="fatigue" value="yes">Yes<br>
-                    <input type="radio" id="fatigue" name="fatigue" value="No">No<br>
-                    <label for="musc">Muscle or body aches? </label><br>
-                    <input type="radio" id="musc" name="musc" value="yes">Yes<br>
-                    <input type="radio" id="musc" name="musc" value="No">No<br>
-                    <label for="head">Headache? </label><br>
-                    <input type="radio" id="head" name="head" value="yes">Yes<br>
-                    <input type="radio" id="head" name="head" value="No">No<br>
-                    <label for="loss">New loss of taste or smell? </label><br>
-                    <input type="radio" id="loss" name="loss" value="yes">Yes<br>
-                    <input type="radio" id="loss" name="loss" value="No">No<br>
-                    <label for="sore">Sore Throat? </label><br>
-                    <input type="radio" id="sore" name="sore" value="yes">Yes<br>
-                    <input type="radio" id="sore" name="sore" value="No">No<br>
-                    <label for="cong">Congestion or runny nose? </label><br>
-                    <input type="radio" id="cong" name="cong" value="yes">Yes<br>
-                    <input type="radio" id="cong" name="cong" value="No">No<br>
-                    <label for="naus">Nausea or vomiting? </label><br>
-                    <input type="radio" id="naus" name="naus" value="yes">Yes<br>
-                    <input type="radio" id="naus" name="naus" value="No">No<br>
-                    <label for="diarrhea">Diarrhea? </label><br>
-                    <input type="radio" id="diarrhea" name="diarrhea" value="yes">Yes<br>
-                    <input type="radio" id="diarrhea" name="diarrhea" value="No">No<br>
+                    <label>Fever or Chills? </label><br>
+                    <input type="radio" id="p" name="chills" value="yes">
+                    <label for="p">Yes</label><br>
+                    <input type="radio" id="n" name="chills" value="no">
+                    <label for="n">No</label><br>
+
+                    <label>Cough? </label><br>
+                    <input type="radio" id="p" name="cough" value="yes">
+                    <label for="p">Yes</label><br>
+                    <input type="radio" id="n" name="cough" value="no">
+                    <label for="n">No</label><br>
+                    <label>Shortness of breath or difficulty breathing? </label><br>
+                    <input type="radio" id="p" name="short" value="yes">
+                    <label for="p">Yes</label><br>
+                    <input type="radio" id="n" name="short" value="no">
+                    <label for="n">No</label><br>
+                    <label>Fatigue? </label><br>
+                    <input type="radio" id="p" name="fatigue" value="yes">
+                    <label for="p">Yes</label><br>
+                    <input type="radio" id="n" name="fatigue" value="no">
+                    <label for="n">No</label><br>
+                    <label>Muscle or body aches? </label><br>
+                    <input type="radio" id="p" name="aches" value="yes">
+                    <label for="p">Yes</label><br>
+                    <input type="radio" id="n" name="aches" value="no">
+                    <label for="n">No</label><br>
+                    <label>Headache? </label><br>
+                    <input type="radio" id="p" name="head" value="yes">
+                    <label for="p">Yes</label><br>
+                    <input type="radio" id="n" name="head" value="no">
+                    <label for="n">No</label><br>
+                    <label>New loss of taste or smell? </label><br>
+                    <input type="radio" id="p" name="loss" value="yes">
+                    <label for="p">Yes</label><br>
+                    <input type="radio" id="n" name="loss" value="no">
+                    <label for="n">No</label><br>
+                    <label>Sore Throat? </label><br>
+                    <input type="radio" id="p" name="sore" value="yes">
+                    <label for="p">Yes</label><br>
+                    <input type="radio" id="n" name="sore" value="no">
+                    <label for="n">No</label><br>
+                    <label>Congestion or runny nose? </label><br>
+                    <input type="radio" id="p" name="nose" value="yes">
+                    <label for="p">Yes</label><br>
+                    <input type="radio" id="n" name="nose" value="no">
+                    <label for="n">No</label><br>
+                    <label>Nausea or vomiting? </label><br>
+                    <input type="radio" id="p" name="vomit" value="yes">
+                    <label for="p">Yes</label><br>
+                    <input type="radio" id="n" name="vomit" value="no">
+                    <label for="n">No</label><br>
+                    <label>Diarrhea? </label><br>
+                    <input type="radio" id="p" name="dia" value="yes">
+                    <label for="p">Yes</label><br>
+                    <input type="radio" id="n" name="dia" value="no">
+                    <label for="n">No</label><br>
 
                     <h3>Other Questions</h3>
-                    <label for="contact">Have you had contact (within 6 feet for > 15 minutes), or caring for someone who is diagnosed with COVID-19 in the last 14 days and were not wearing proper personal protective equipment? (yes/no) </label><br>
-                    <input type="radio" id="contact" name="contact" value="yes">Yes<br>
-                    <input type="radio" id="contact" name="contact" value="No">No<br>
+                    <label>Have you had contact (within 6 feet for > 15 minutes), or caring for someone who is diagnosed with COVID-19 in the last 14 days and were not wearing proper personal protective equipment? (yes/no) </label><br>
+                    <input type="radio" id="p" name="contact" value="yes">
+                    <label for="p">Yes</label><br>
+                    <input type="radio" id="n" name="contact" value="no">
+                    <label for="n">No</label><br>
 
-                    <label for="dia">Have you had a diagnosis of COVID-19 in the last 10 days? (yes/no)</label><br>
-                    <input type="radio" id="dia" name="dia" value="yes">Yes<br>
-                    <input type="radio" id="dia" name="dia" value="No">No<br>
+                    <label>Have you had a diagnosis of COVID-19 in the last 10 days? (yes/no)</label><br>
+                    <input type="radio" id="p" name="diagnosis" value="yes">
+                    <label for="p">Yes</label><br>
+                    <input type="radio" id="n" name="diagnosis" value="no">
+                    <label for="n">No</label><br>
 
-                    <label for="country">Have you travelled to any country in the last 14 days? (yes/no)</label><br>
-                    <input type="radio" id="country" name="country" value="yes">Yes<br>
-                    <input type="radio" id="country" name="country" value="No">No<br>
+                    <label>Have you travelled to any country in the last 14 days? (yes/no)</label><br>
+                    <input type="radio" id="p" name="travel" value="yes">
+                    <label for="p">Yes</label><br>
+                    <input type="radio" id="n" name="travel" value="no">
+                    <label for="n">No</label><br>
 
-                    <label for="social">Have you socialized with a group of 6 or more people in the last 14 days? (yes/no)</label><br>
-                    <input type="radio" id="social" name="social" value="yes">Yes<br>
-                    <input type="radio" id="social" name="social" value="No">No<br>
+                    <label>Have you socialized with a group of 6 or more people in the last 14 days? (yes/no)</label><br>
+                    <input type="radio" id="p" name="social" value="yes">
+                    <label for="p">Yes</label><br>
+                    <input type="radio" id="n" name="social" value="no">
+                    <label for="n">No</label><br>
 
                     <label for="temp">What's you're current tempature?</label><br>
                     <input id="temp" type="number" placeholder="Fahrenheit">
