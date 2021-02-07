@@ -14,6 +14,7 @@
                 Please fill out this form: 
             </h2>
             <article>
+                <!--PART ONE: COVID SCREENING QUESTIONS-->
                 <form>
                     <h3>Please enter your personal information: </h3>
                     <label for="txtFirstName">First name: </label><br>
@@ -38,13 +39,14 @@
                     <label for="dob">Date of Birth: </label><br>
                     <input type="text" id="dob" name="dob"><br>
 
+
+                    <!--PART 2: SYMPTOM QUESTIONS-->
                     <h3>Have you had the following symptioms in the last 24 hours?(y/n)</h3>
                     <label>Fever or Chills? </label><br>
                     <input type="radio" id="p" name="chills" value="yes">
                     <label for="p">Yes</label><br>
                     <input type="radio" id="n" name="chills" value="no">
                     <label for="n">No</label><br>
-
                     <label>Cough? </label><br>
                     <input type="radio" id="po" name="cough" value="yes">
                     <label for="po">Yes</label><br>
@@ -96,6 +98,7 @@
                     <input type="radio" id="nay" name="dia" value="no">
                     <label for="nay">No</label><br>
 
+                    <!--PART 3:OTHER QUESTIONS-->
                     <h3>Other Questions</h3>
                     <label>Have you had contact (within 6 feet for > 15 minutes), or caring for someone who is diagnosed with COVID-19 in the last 14 days and were not wearing proper personal protective equipment? (yes/no) </label><br>
                     <input type="radio" id="ya" name="contact" value="yes">
