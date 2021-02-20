@@ -17,20 +17,28 @@
                         <form>
                             <fieldset class="border">
                                 <legend class="w-auto">Part 1: Patient Information</legend>
-                                <div class="form-group">
-                                    <label for="txtFirstName">
-                                        <span>First name:</span> 
-                                        <strong><abbr title="required">*</abbr></strong>
-                                    </label>
-                                    <input type="text" id="txtFirstName" name="txtFirstName" required>
+                                <div class="form-group row">
+                                    <div class="col-sm-2">
+                                        <label for="txtFirstName">
+                                            <span>First name:</span> 
+                                            <strong><abbr title="required">*</abbr></strong>
+                                        </label>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <input type="text" id="txtFirstName" name="txtFirstName" required class="form-control" placeholder="First Name">
+                                    </div>
                                 </div>
-                                <p>    
-                                    <label for="txtLastName">
-                                        <span>Last name:</span> 
-                                        <strong><abbr title="required">*</abbr></strong>
-                                    </label>
-                                    <input type="text" id="txtLastName" name="txtLastName" required>
-                                </p>
+                                <div class="form-group row">
+                                    <div class="col-sm-2">  
+                                        <label for="txtLastName">
+                                            <span>Last name:</span> 
+                                            <strong><abbr title="required">*</abbr></strong>
+                                        </label>
+                                    </div>  
+                                    <div class="col-sm-10">
+                                        <input type="text" id="txtLastName" name="txtLastName" required class="form-control" placeholder="Last Name">
+                                    </div>
+                                </div>
 
                                 <p>
                                     <span>Gender:</span>
