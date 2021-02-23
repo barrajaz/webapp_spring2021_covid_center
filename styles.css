@@ -1,12 +1,11 @@
-.firstname
-{
-    float:left;
-    width:auto;
-    margin-right: 1%;
-}
-
-.lastname
-{
+.column {
     float: left;
-    width: 49%;
-}
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
