@@ -298,25 +298,29 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <label for="ddCovid" class="row form-control">
+                                    <label for="ddCovid" class="col-50 col-form-label">
                                         Have you had a diagnosis of COVID-19 in the last 10 days? (yes/no) 
                                         <!--<strong><abbr title="required">*</abbr></strong>-->
                                     </label>
-                                    <select id="ddCovid" name="ddCovid" class="form-control">
-                                        <option value="No" selected>No</option>
-                                        <option value="Yes">Yes</option>
-                                    </select>
-                                </div>
-
-                                <div>
-                                        <label for="ddTravel" class="row form-control">
-                                            <span>Have you travelled to any country in the last 14 days? (yes/no) </span>
-                                            <!--<strong><abbr title="required">*</abbr></strong><br>-->
-                                        </label>
-                                        <select id="ddTravel" name="ddTravel" class="form-control">
+                                    <div class="col-md-6">
+                                        <select id="ddCovid" name="ddCovid" class="form-control">
                                             <option value="No" selected>No</option>
                                             <option value="Yes">Yes</option>
                                         </select>
+                                    </div>
+                                </div>
+
+                                <div>
+                                        <label for="ddTravel" class="col-50 col-form-label">
+                                            <span>Have you travelled to any country in the last 14 days? (yes/no) </span>
+                                            <!--<strong><abbr title="required">*</abbr></strong><br>-->
+                                        </label>
+                                        <div class="col-md-6">
+                                            <select id="ddTravel" name="ddTravel" class="form-control">
+                                                <option value="No" selected>No</option>
+                                                <option value="Yes">Yes</option>
+                                            </select>
+                                        </div>
                                         <br>
                                         <div>
                                             <label for="TxtCountry">
@@ -329,18 +333,20 @@
                                  </div>
 
                                 <div>
-                                    <label for="ddSocialize" class="row form-control">
+                                    <label for="ddSocialize" class="col-50 col-form-label">
                                         Have you socialized with a group of 6 or more people in the last 14 days? (yes/no) 
                                         <!--<strong><abbr title="required">*</abbr></strong>-->
                                     </label>
-                                    <select id="ddSocialize" name="ddSocialize" class="form-control">
-                                        <option value="No" selected>No</option>
-                                        <option value="Yes">Yes</option>
-                                    </select>
+                                    <div class="col-md-6"></div>
+                                        <select id="ddSocialize" name="ddSocialize" class="form-control">
+                                            <option value="No" selected>No</option>
+                                            <option value="Yes">Yes</option>
+                                        </select>
+                                    </div>
                                 </div>
 
                                 <div>
-                                    <label for="ddTemp" class="row form-control">
+                                    <label for="ddTemp" class="col-50 col-form-label">
                                         Current tempature?
                                         <!--<strong><abbr title="required">*</abbr></strong>-->
                                     </label>
